@@ -1,0 +1,43 @@
+# Build output
+target/
+*.class
+*.jar
+*.war
+!.mvn/wrapper/maven-wrapper.jar
+
+# Secrets / environment files
+*.env
+.env*
+*.pem
+*.key
+*.p12
+*.jks
+application-local.yml
+application-local.properties
+application-secret*.yml
+application-secret*.properties
+
+# IDE files
+.idea/
+*.iml
+*.iws
+.vscode/
+.classpath
+.project
+.settings/
+.factorypath
+.apt_generated/
+.springBeans
+.sts4-cache/
+nbproject/
+nbbuild/
+nbdist/
+.nb-gradle/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
